@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "646236979314",
+    "project_id": "feirinha-artesanal",
+    "storage_bucket": "feirinha-artesanal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646236979314:android:4a5afa0fcdfa8f853d02eb",
+        "android_client_info": {
+          "package_name": "com.example.feirinhaartesanal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646236979314-qeqm6rgiqlsnuvc7frgdgcmmpddta02f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4OrCF1v28qKI4SiqGvI4PZ1y2aLQsTOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646236979314-qeqm6rgiqlsnuvc7frgdgcmmpddta02f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
