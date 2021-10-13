@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    tools:context=".EscolhaTipoCadastro">
+
+
+    <ImageView
+        android:id="@+id/feira"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/feira"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="25dp"
+        />
+
+
+    <TextView
+        android:id="@+id/voce_e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tipoCadastro"
+        android:textSize="50sp"
+        android:textStyle="bold"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/feira"
+        />
+
+    <View
+        android:id="@+id/Caixa_selecao"
+        style="@style/caixa_login"
+        app:layout_constraintTop_toBottomOf="@id/voce_e"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonComprador"
+        style="@style/button_login"
+        android:text="Comprador"
+        android:textSize="30sp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="@id/Caixa_selecao"
+        app:layout_constraintEnd_toEndOf="@id/Caixa_selecao"
+        app:layout_constraintTop_toTopOf="@id/Caixa_selecao"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonVendedor"
+        style="@style/button_login"
+        android:text="Vendedor"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="@id/Caixa_selecao"
+        app:layout_constraintEnd_toEndOf="@id/Caixa_selecao"
+        app:layout_constraintTop_toBottomOf="@id/buttonComprador"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
