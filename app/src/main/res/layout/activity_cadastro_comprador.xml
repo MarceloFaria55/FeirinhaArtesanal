@@ -47,7 +47,7 @@
         app:layout_constraintTop_toBottomOf="@id/feira" />
 
     <EditText
-        android:id="@+id/caixa_email"
+        android:id="@+id/caixa_emailC"
         style="@style/caixa_texto"
         android:hint="Email"
         android:inputType="textEmailAddress"
@@ -64,7 +64,7 @@
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="@id/caixa_login"
         app:layout_constraintStart_toStartOf="@id/caixa_login"
-        app:layout_constraintTop_toBottomOf="@id/caixa_email" />
+        app:layout_constraintTop_toBottomOf="@id/caixa_emailC" />
 
     <EditText
         android:id="@+id/caixa_nome"
@@ -107,7 +107,7 @@
         app:layout_constraintTop_toBottomOf="@id/caixa_endereco" />
 
     <EditText
-        android:id="@+id/caixa_senha"
+        android:id="@+id/caixa_senhaC"
         style="@style/caixa_texto"
         android:hint="Senha"
         android:inputType="textPassword"
@@ -121,7 +121,7 @@
         android:id="@+id/bt_CadastroC"
         style="@style/button_cadastro"
         app:layout_constraintStart_toStartOf="@id/caixa_login"
-        app:layout_constraintTop_toBottomOf="@id/caixa_senha"
+        app:layout_constraintTop_toBottomOf="@id/caixa_senhaC"
         app:layout_constraintEnd_toEndOf="@id/caixa_login"
         app:layout_constraintBottom_toBottomOf="@id/caixa_login"
         />
