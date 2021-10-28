@@ -60,7 +60,8 @@
             android:id="@+id/caixa_cpf_cnpj"
             style="@style/caixa_texto"
             android:hint="CPF/CNPJ"
-            android:inputType="number"
+            android:inputType="text"
+            android:maxLength="20"
             android:minHeight="48dp"
             app:layout_constraintEnd_toEndOf="@id/caixa_login"
             app:layout_constraintStart_toStartOf="@id/caixa_login"
@@ -101,6 +102,7 @@
             style="@style/caixa_UF"
             android:hint="UF"
             android:inputType="text"
+            android:maxLength="2"
             android:minHeight="48dp"
             app:layout_constraintEnd_toEndOf="@id/caixa_login"
             app:layout_constraintStart_toEndOf="@id/caixa_cidade"
@@ -114,9 +116,20 @@
             android:minHeight="48dp"
             app:layout_constraintEnd_toEndOf="@id/caixa_login"
             app:layout_constraintStart_toStartOf="@id/caixa_login"
-
-
             app:layout_constraintTop_toBottomOf="@id/caixa_cidade" />
+
+        <ProgressBar
+            android:id="@+id/loadCV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible"
+            android:indeterminateTint="@color/pink_light"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/caixa_senha"
+            android:layout_marginBottom="0dp"
+            />
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/bt_CadastroV"
             style="@style/button_cadastro"

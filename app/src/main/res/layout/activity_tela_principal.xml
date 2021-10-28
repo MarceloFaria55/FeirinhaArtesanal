@@ -42,7 +42,7 @@
         android:id="@+id/textoNomeUsuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="dfasfasdfas"
+        android:text=""
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -65,7 +65,7 @@
         android:id="@+id/textoMailUsuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="dfasfasdfas"
+        android:text=""
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -86,10 +86,10 @@
         android:layout_marginTop="15dp"
         />
     <TextView
-        android:id="@+id/textoEnderecoUsuario"
+        android:id="@+id/textoCidadeUsuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="dfasfasdfas"
+        android:text=""
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -98,11 +98,13 @@
         app:layout_constraintTop_toBottomOf="@id/textoMailUsuario"
         app:layout_constraintStart_toEndOf="@id/icone_endereco"
         />
+
     <Button
+        android:id="@+id/bt_deslogar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Deslogar"
-        app:layout_constraintTop_toBottomOf="@id/textoEnderecoUsuario"
+        app:layout_constraintTop_toBottomOf="@id/textoCidadeUsuario"
         android:backgroundTint="@color/black"
         android:layout_margin="20dp"
         android:padding="20dp"
